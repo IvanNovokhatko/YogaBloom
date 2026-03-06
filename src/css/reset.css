@@ -30,6 +30,7 @@ button {
 button,
 a {
   -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 img {
