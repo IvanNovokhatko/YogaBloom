@@ -27,6 +27,11 @@ button {
   cursor: pointer;
 }
 
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 img {
   display: block;
   max-width: 100%;
