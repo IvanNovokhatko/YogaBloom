@@ -99,6 +99,7 @@
   --opacity-animation: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1);
   --background-animation: background 0.4s cubic-bezier(0.25, 1, 0.5, 1);
   --transform-nav-animation: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  --transform-border-animation: border 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 body {
@@ -108,6 +109,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   background-color: var(--color-scheme-3-background);
 }
 
