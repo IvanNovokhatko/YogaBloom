@@ -161,7 +161,7 @@
 
 .header__button:active {
     background: rgba(194, 217, 252, 0);
-    border: 1px solid var(--color-hawkes-blue);
+    opacity: 1;
 }
 
 .header__button:disabled {
