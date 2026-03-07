@@ -1,0 +1,22 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__image {
+    object-fit: cover;
+    height: 301px;
+}
+
+@media screen and (min-width: 768px ) {
+    .hero__image {
+        height: 359px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .hero__image {
+        height: 684px;
+    }
+}
