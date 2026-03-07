@@ -33,6 +33,20 @@
     }
 }
 
+@media screen and (min-width: 1336px) {
+    .hero__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .hero__content-wrapper {
+        display: flex;
+        gap: 24px;
+    }
+}
+
 .hero__main-title {
     font-family: var(--second-family);
     font-size: 44px;
@@ -47,6 +61,13 @@
     .hero__main-title {
         max-width: 423px;
         margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .hero__main-title {
+        font-size: 72px;
+        max-width: 644px;
     }
 }
 
