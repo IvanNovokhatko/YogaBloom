@@ -1,11 +1,13 @@
 <section class="hero">
-  <img
-    class="hero__image"
-    src="../img/hero/hero.jpg"
-    alt="Woman practicing yoga at sunset"
-    srcset="../img/hero/hero.jpg 1x, ../img/hero/hero@2x.jpg 2x"
-    width="1440"
-  />
+  <div class="hero__image-wrapper">
+    <img
+      class="hero__image"
+      src="../img/hero/hero.jpg"
+      alt="Woman practicing yoga at sunset"
+      srcset="../img/hero/hero.jpg 1x, ../img/hero/hero@2x.jpg 2x"
+      width="1440"
+    />
+  </div>
 
   <div class="hero__container container">
     <h1 class="hero__main-title">Transform Your Life with Our Yoga Clases</h1>
@@ -15,7 +17,13 @@
       programs. Join a community dedicated to wellness and personal growth.
     </p>
 
-    <button class="hero__button-join-to">Join Now</button>
-    <button class="hero__button-learn-more">Learn More</button>
+    <ul class="hero__button-list">
+      <li>
+        <button class="hero__button-join-to">Join Now</button>
+      </li>
+      <li>
+        <button class="hero__button-learn-more">Learn More</button>
+      </li>
+    </ul>
   </div>
 </section>

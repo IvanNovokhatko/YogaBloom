@@ -1,4 +1,4 @@
-.hero {
+.hero__image-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,13 @@
     padding-bottom: 48px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero__container {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
 .hero__main-title {
     font-family: var(--second-family);
     font-size: 44px;
@@ -36,11 +43,38 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero__main-title {
+        max-width: 423px;
+        margin-bottom: 8px;
+    }
+}
+
 .hero__description {
     line-height: 1.6;
     color: var(--color-scheme-3-text);
 
     margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__description {
+        font-size: 18px;
+        max-width: 641px;
+        margin-bottom: 32px;
+    }
+}
+
+.hero__button-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__button-list {
+        flex-direction: row;
+    }
 }
 
 .hero__button-join-to {
@@ -52,13 +86,18 @@
     justify-content: center;
     width: 100%;
     min-height: 46px;
-    margin-bottom: 16px;
 
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     background: var(--color-hawkes-blue);
 
     transition: var(--opacity-animation), var(--background-animation);
+}
+
+@media screen and (min-width: 768px) {
+    .hero__button-join-to {
+        min-width: 113px;
+    }
 }
 
 .hero__button-join-to:hover,
@@ -90,6 +129,12 @@
     background: var(--opacity-neutral-darkest-5);
 
     transition: var(--opacity-animation), var(--background-animation), var(--transform-border-animation);
+}
+
+@media screen and (min-width: 768px) {
+    .hero__button-learn-more {
+        min-width: 128px;
+    }
 }
 
 .hero__button-learn-more:hover,
