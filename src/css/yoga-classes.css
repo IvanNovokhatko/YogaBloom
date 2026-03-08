@@ -124,6 +124,16 @@
     }
 }
 
+@media screen and (min-width: 1336px) {
+    .yoga-classes__yoga-list {
+        flex-wrap: nowrap;
+    }
+
+    .yoga-list__item {
+        width: calc((100% - 24px) / 3);
+    }
+}
+
 .yoga-list__image {
     object-fit: fill;
 
@@ -135,6 +145,12 @@
     .yoga-list__image {
         max-height: 282px;
         margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-list__image {
+        margin-bottom: 32px;
     }
 }
 
@@ -156,6 +172,14 @@
 
     .yoga-list__title .accent {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-list__title {
+        font-size: 36px;
+        
+        margin-bottom: 24px;
     }
 }
 
