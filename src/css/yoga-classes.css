@@ -109,10 +109,33 @@
     margin-bottom: 48px;
 }
 
-.yoga-list__image {
-    object-fit: cover;
+@media screen and (min-width: 768px) {
+    .yoga-classes__yoga-list {
+        flex-direction: row;
+        gap: 24px;
+        flex-wrap: wrap;
 
+        margin-bottom: 40px;
+    }    
+
+    .yoga-list__item {
+        width: calc((100% - 24px) / 2);
+        flex-grow: 1;
+    }
+}
+
+.yoga-list__image {
+    object-fit: fill;
+
+    width: 100%;
     margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-list__image {
+        max-height: 282px;
+        margin-bottom: 16px;
+    }
 }
 
 .yoga-list__title {
@@ -124,6 +147,16 @@
     color: var(--color-scheme-1-text);
 
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-list__title {
+        margin-bottom: 0;
+    }
+
+    .yoga-list__title .accent {
+        display: none;
+    }
 }
 
 .yoga-list__description {
