@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and (min-width: 1336px) {
+    .yoga-classes {
+        padding: 112px 0;
+    }
+}
+
 .yoga-classes__title-above {
     font-weight: 600;
     text-align: center;
@@ -39,6 +45,16 @@
     }
 }
 
+@media screen and (min-width: 1336px) {
+    .yoga-classes__title {
+        font-size: 52px;
+
+        max-width: 768px;
+        margin: 0 auto 24px;
+        display: block;
+    }
+}
+
 .yoga-classes__tablet-title {
     font-family: var(--second-family);
     font-size: 40px;
@@ -57,6 +73,12 @@
     }
 }
 
+@media screen and (min-width: 1336px) {
+    .yoga-classes__tablet-title {
+        display: none;
+    }
+}
+
 .yoga-classes__description {
     line-height: 1.6;
     text-align: center;
@@ -70,4 +92,11 @@
         font-size: 18px;
         margin-bottom: 40px;
     }    
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes__description {
+        max-width: 768px;
+        margin: 0 auto 40px;
+    }
 }
