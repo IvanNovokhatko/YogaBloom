@@ -1,0 +1,229 @@
+.yoga-classes {
+    padding: 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes {
+        padding: 112px 0;
+    }
+}
+
+.yoga-classes__title-above {
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__title-above {
+        margin-bottom: 16px;
+    }
+}
+
+.yoga-classes__title {
+    font-family: var(--second-family);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__title {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes__title {
+        font-size: 52px;
+
+        max-width: 768px;
+        margin: 0 auto 24px;
+        display: block;
+    }
+}
+
+.yoga-classes__tablet-title {
+    font-family: var(--second-family);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 24px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__tablet-title {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes__tablet-title {
+        display: none;
+    }
+}
+
+.yoga-classes__description {
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__description {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }    
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes__description {
+        max-width: 768px;
+        margin: 0 auto 40px;
+    }
+}
+
+.yoga-classes__yoga-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__yoga-list {
+        flex-direction: row;
+        gap: 24px;
+        flex-wrap: wrap;
+
+        margin-bottom: 40px;
+    }    
+
+    .yoga-list__item {
+        width: calc((100% - 24px) / 2);
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-classes__yoga-list {
+        flex-wrap: nowrap;
+    }
+
+    .yoga-list__item {
+        width: calc((100% - 24px) / 3);
+    }
+}
+
+.yoga-list__image {
+    object-fit: fill;
+
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-list__image {
+        max-height: 282px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-list__image {
+        margin-bottom: 32px;
+    }
+}
+
+.yoga-list__title {
+    font-family: var(--second-family);
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-list__title {
+        margin-bottom: 0;
+    }
+
+    .yoga-list__title .accent {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-list__title {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+}
+
+.yoga-list__description {
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+}
+
+.yoga-classes__button-join-to {
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--color-neutral-darkest);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-hawkes-blue);
+    border-radius: 100px;
+    min-height: 46px;
+
+    background: var(--color-hawkes-blue);
+
+    transition: var(--opacity-animation), var(--background-animation);
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__button-join-to {
+        max-width: 110px;
+        margin: 0 auto;
+    }
+}
+
+.yoga-classes__button-join-to:hover,
+.yoga-classes__button-join-to:focus {
+    opacity: 0.5;
+}
+
+.yoga-classes__button-join-to:active {
+    background: rgba(194, 217, 252, 0);
+    opacity: 1;
+}
+
+.yoga-classes__button-join-to:disabled {
+    opacity: 0.2;
+}

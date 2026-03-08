@@ -124,7 +124,7 @@
     opacity: 0.3;
 }
 
-.header__button {
+.header__button-join-to {
     font-weight: 500;
     color: var(--color-neutral-darkest);
 
@@ -143,27 +143,27 @@
 }
 
 @media screen and (min-width: 768px) {
-    .header__button {
+    .header__button-join-to {
         min-height: 42px;
     }
 }
 
 @media screen and (min-width: 1336px) {
-    .header__button {
+    .header__button-join-to {
         max-width: 105px;
     }
 }
 
-.header__button:hover, 
-.header__button:focus {
+.header__button-join-to:hover, 
+.header__button-join-to:focus {
     opacity: 0.5;
 }
 
-.header__button:active {
+.header__button-join-to:active {
     background: rgba(194, 217, 252, 0);
     opacity: 1;
 }
 
-.header__button:disabled {
+.header__button-join-to:disabled {
     opacity: 0.2;
 }
