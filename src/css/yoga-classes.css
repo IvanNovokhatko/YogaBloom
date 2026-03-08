@@ -178,7 +178,7 @@
 @media screen and (min-width: 1336px) {
     .yoga-list__title {
         font-size: 36px;
-        
+
         margin-bottom: 24px;
     }
 }
@@ -187,4 +187,43 @@
     line-height: 1.6;
     text-align: center;
     color: var(--color-scheme-1-text);
+}
+
+.yoga-classes__button-join-to {
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--color-neutral-darkest);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-hawkes-blue);
+    border-radius: 100px;
+    min-height: 46px;
+
+    background: var(--color-hawkes-blue);
+
+    transition: var(--opacity-animation), var(--background-animation);
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-classes__button-join-to {
+        max-width: 110px;
+        margin: 0 auto;
+    }
+}
+
+.yoga-classes__button-join-to:hover,
+.yoga-classes__button-join-to:focus {
+    opacity: 0.5;
+}
+
+.yoga-classes__button-join-to:active {
+    background: rgba(194, 217, 252, 0);
+    opacity: 1;
+}
+
+.yoga-classes__button-join-to:disabled {
+    opacity: 0.2;
 }
