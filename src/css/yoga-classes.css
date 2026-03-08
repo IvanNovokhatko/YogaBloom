@@ -100,3 +100,34 @@
         margin: 0 auto 40px;
     }
 }
+
+.yoga-classes__yoga-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    margin-bottom: 48px;
+}
+
+.yoga-list__image {
+    object-fit: cover;
+
+    margin-bottom: 24px;
+}
+
+.yoga-list__title {
+    font-family: var(--second-family);
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+
+    margin-bottom: 20px;
+}
+
+.yoga-list__description {
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+}
